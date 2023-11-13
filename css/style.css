@@ -1,0 +1,240 @@
+body {
+  background-color: #ffffff;
+  color: #854f6c;
+  margin: 20px;
+}
+
+nav {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 40px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 20px 40px;
+  font-size: 20px;
+  color: #854f6c;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Aprial, sane-serif;
+}
+
+nav ul li a:hover {
+  background-color: #d4a3c4;
+  color: #000;
+}
+
+#name,#Objective,#Education,#Skills,#Activities,#Hobbies,#boks,.section,#Abjura,#Finjan,#SaturdayCouch {
+  margin: 20px;
+}
+
+#Abjura,#Finjan,#SaturdayCouch {
+  padding: 20px;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  border: 20px solid;
+  justify-content: center;
+  align-items: center;
+  color: #854f6c;
+  font-family: Aprial, sane-serif;
+}
+
+h1 {
+  color: #4d5061;
+  font-family: Aprial, sane-serif;
+}
+
+li {
+  color: #4d5061;
+  font-family: Aprial, sane-serif;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#Objective,#Activities {
+  float: left;
+  width: 60%;
+  margin: 0 5%;
+}
+
+h2 {
+  text-decoration-line: underline;
+  color: #4d5061;
+  font-family: Aprial, sane-serif;
+}
+
+p {
+  color: #4d5061;
+  font-family: Aprial, sane-serif;
+  font-style: italic;
+}
+#Education,#Skills,#Hobbies {
+  float: left;
+  width: 25%;
+  margin: 0 5% 0 0;
+}
+
+ul {
+  list-style-type: none;
+  font-style: italic;
+  font-family: Aprial, sane-serif;
+}
+
+#boks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4d5061;
+  font-family: Aprial, sane-serif;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 80px;
+  border: 20px solid;
+  font-size: 18px;
+}
+
+#box {
+  float: left;
+  width: 60%;
+  margin: 0 5%;
+}
+
+#boxright {
+  float: left;
+  width: 25%;
+  margin: 0 5% 0 0;
+}
+
+#Abjura {
+  display: block;
+  margin: 0px;
+  padding: 2rem;
+  border: 0.75rem solid;
+}
+
+#Abjura h1 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  color: #4d5061;
+  font-family: Aprial, sane-serif;
+}
+
+#Abjura h2,#Abjura p {
+  font-size: 1.1250em;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4d5061;
+  font-family: Aprial, sane-serif;
+}
+
+#Finjan {
+  display: block;
+  margin: 0px;
+  padding: 4%;
+  border: 0px;
+}
+
+#Finjan h2,#Finjan p {
+  font-size: 1.1250em;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4d5061;
+  font-family: Aprial, sane-serif;
+}
+
+#SaturdayCouch {
+  display: block;
+  margin: 0;
+  padding: 4%;
+  border: 0;
+  border: 1.5rem solid;
+}
+
+#SaturdayCouch h2,#SaturdayCouch p {
+  font-size: 1.1250em;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4d5061;
+  font-family: Aprial, sane-serif;
+}
+
+img {
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+}
+#A_Administration img, #TheUsfuriya img{
+	width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 1.1250em;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4d5061;
+  font-family: Aprial, sane-serif;
+}
+
+iframe {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+footer p {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  clear: both;
+  background: #ffffff;
+  font-size: 1.1250em;
+  padding: 2%;
+  color: #854f6c;
+  font-family: Aprial, sane-serif;
+  border: 15px solid;
+  margin: 2% ;
+}
+
+
+	
+	
+
+
