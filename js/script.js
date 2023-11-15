@@ -1,45 +1,19 @@
-function init(){
-	//alert('it works');
-	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(41.8358, -87.6270);
-	var mapOptions = {
-		center: myLocation,
-		zoom: 16,
-		mapTypeId: google.maps.MapTypeId.SATELLITE,
-		mapTypeControlOptions: {
-			position: google.maps.ControlPosition.BOTTOM_CENTER
-		}
-	};
+function initMap() {
+  // Coordinates for Illinois Institute of Technology (IIT) library
+  var iitLibrary = { lat: 41.8358, lng: -87.6270 };
 
-	var myMap = new google.maps.Map(el, mapOptions);
-
-	var marker = new google.maps.Marker({
-		position: myLocation,
-		map: myMap,
-		title: "IIT Library",'
-	});
-	
-	 marker.addListener("click", () => {
-    infowindow.open({
-      anchor: marker,
-      map,
-    });
+  // Create a map centered at IIT library
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 16,
+    center: iitLibrary
   });
 
-	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
-
-	var infowindow = new google.maps.InfoWindow({
-      content: contentString
-  	});
-
-	google.maps.event.addListener(marker, 'mouseover', function() {
-    	infowindow.open(myMap, marker);
-  	});
-
-
+  // Add a marker for IIT library
+  var marker = new google.maps.Marker({
+    position: iitLibrary,
+    map: map,
+    title: 'IIT Library'
+  });
 }
 
-google.maps.event.addDomListener(window, 'load', init);
-
-  
 
