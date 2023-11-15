@@ -1,11 +1,10 @@
 function init(){
 	//alert('it works');
-	 var iitLibrary = { lat: 41.8358, lng: -87.6270 };
-
-  // Create a map centered at IIT library
-     var map = new google.maps.Map(document.getElementById('map'), {
-     zoom: 16,
-     center: iitLibrary
+	var el = document.getElementById('canvas');
+	var myLocation = new google.maps.LatLng(41.835117, -87.627130);
+	var mapOptions = {
+		center: myLocation,
+		zoom: 18,
 		
 	};
 
