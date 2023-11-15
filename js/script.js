@@ -4,7 +4,7 @@ function init(){
 	var myLocation = new google.maps.LatLng(41.8358, -87.6270);
 	var mapOptions = {
 		center: myLocation,
-		zoom: 18,
+		zoom: 16,
 		mapTypeId: google.maps.MapTypeId.SATELLITE,
 		mapTypeControlOptions: {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -14,11 +14,10 @@ function init(){
 	var myMap = new google.maps.Map(el, mapOptions);
 
 	var marker = new google.maps.Marker({
-		position: myLocation,
-		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
-		icon: 'iit-icon.png'
-	});
+    position: iitLibrary,
+    map: map,
+    title: 'IIT Library'
+    });
 
 	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
 
