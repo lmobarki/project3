@@ -20,7 +20,7 @@ function init(){
 		icon:'images/bboo.png'
 	});
 
-	var contentString = '<h1>Harold Washington Library</h1><p> The Harold Washington Library Center is the central library for the Chicago Public Library System. It is located just south of the Loop 'L', at 400 S. State Street in Chicago, in the U.S. state of Illinois.</p>';
+	var contentString = '<h1>Harold Washington Library</h1><p> The Harold Washington Library Center is the central library for the Chicago Public Library System.</p>';
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
