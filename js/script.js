@@ -14,10 +14,17 @@ function init(){
 	var myMap = new google.maps.Map(el, mapOptions);
 
 	var marker = new google.maps.Marker({
-    position: iitLibrary,
-    map: map,
-    title: 'IIT Library'
+		position: myLocation,
+		map: myMap,
+		title: "IIT Library",'
+	});
+	
+	 marker.addListener("click", () => {
+    infowindow.open({
+      anchor: marker,
+      map,
     });
+  });
 
 	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
 
