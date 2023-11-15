@@ -3,7 +3,7 @@ function initMap() {
   var iitLibrary = { lat: 41.8358, lng: -87.6270 };
 
   // Create a map centered at IIT library
-  var map = new google.maps.Map(document.getElementById('map'), {
+  var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 16,
     center: iitLibrary
   });
@@ -12,7 +12,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: iitLibrary,
     map: map,
-    title: 'IIT Library'
+    title: "IIT Library",
   });
 }
 
