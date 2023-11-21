@@ -233,13 +233,7 @@ footer p {
   margin: 2% ;
 }
 
-#wrapper {
-	width: 850px;
-	height: 600px;
-	background-color: #854f6c;
-	margin:0 auto;
-	overflow: hidden;
-	}
+
 	
 #canvas {
 	width: 700px;
