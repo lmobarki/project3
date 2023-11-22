@@ -29,6 +29,32 @@ function init(){
 	google.maps.tevent.addListener(marker, 'mouseover', function() {
     	infowindow.open(myMap, marker);
   	});
+	
+	var polygonCoordinates = [
+        { lat: 41.877, lng: -87.629 },
+        { lat: 41.877, lng: -87.627 },
+        { lat: 41.875, lng: -87.627 },
+        { lat: 41.875, lng: -87.629 },
+    ];
+
+    polygon = new google.maps.Polygon({
+        paths: polygonCoordinates,
+        strokeColor: '#FF0000',
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: '#FF0000',
+        fillOpacity: 0.35,
+        map: myMap
+    });
+
+  
+    window.togglePolygon = function () {
+        if (polygon.getMap()) {
+            polygon.setMap(null);
+        } else {
+            polygon.setMap(myMap);
+        }
+    }
 
 }
 
