@@ -51,7 +51,7 @@ function init(){
         } else {
             polygon.setMap(myMap);
         }
-    }
+    };
 
 }
 
