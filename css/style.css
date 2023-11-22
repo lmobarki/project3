@@ -245,7 +245,8 @@ button {
 }
 
 .toggle-button-container {
-   float: right;
+  text-align: center; 
+    margin-top: 10px;
 }
 
 
