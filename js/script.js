@@ -26,7 +26,7 @@ function init(){
       content: contentString
   	});
 
-	google.maps.event.addListener(marker, 'mouseover', function() {
+	google.maps.tevent.addListener(marker, 'mouseover', function() {
     	infowindow.open(myMap, marker);
   	});
 	
