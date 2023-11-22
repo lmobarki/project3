@@ -35,5 +35,19 @@ function init(){
 
 google.maps.event.addDomListener(window, 'load', init);
 
+ // Add a search box to the map
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.placeholder = 'Search...';
+    input.className = 'search-box';
+    map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+    const searchBox = new google.maps.places.SearchBox(input);
+
+    // Bias the SearchBox results towards the current map's viewport
+    map.addListener('bounds_changed', function() {
+        searchBox.setBounds(map.getBounds());
+    });
+
   
 
