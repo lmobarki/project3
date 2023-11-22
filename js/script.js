@@ -4,7 +4,7 @@ function init(){
 	var myLocation = new google.maps.LatLng(41.876, -87.628);
 	var mapOptions = {
 		center: myLocation,
-		zoom: 18,
+		zoom: 15,
 		mapTypeId: google.maps.MapTypeId.HYBRID,
 	};
 
