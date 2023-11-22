@@ -5,6 +5,10 @@ function init(){
 	var mapOptions = {
 		center: myLocation,
 		zoom: 18,
+		mapTypeId: google.maps.MapTypeId.SATELLITE,
+		mapTypeControlOptions: {
+			position: google.maps.ControlPosition.BOTTOM_CENTER
+		}
 	};
 
 	var myMap = new google.maps.Map(el, mapOptions);
@@ -26,29 +30,10 @@ function init(){
     	infowindow.open(myMap, marker);
   	});
 
-    var zoomControlDiv = document.getElementById('zoom-control');
-    var zoomInButton = document.createElement('div');
-    zoomInButton.innerHTML = '+';
-    zoomInButton.className = 'custom-control';
-    zoomControlDiv.appendChild(zoomInButton);
-
-    var zoomOutButton = document.createElement('div');
-    zoomOutButton.innerHTML = '-';
-    zoomOutButton.className = 'custom-control';
-    zoomControlDiv.appendChild(zoomOutButton);
-
-    google.maps.event.addDomListener(zoomInButton, 'click', function () {
-        myMap.setZoom(myMap.getZoom() + 1);
-    });
-
-    google.maps.event.addDomListener(zoomOutButton, 'click', function () {
-        myMap.setZoom(myMap.getZoom() - 1);
-    });
 
 }
 
 google.maps.event.addDomListener(window, 'load', init);
-
 
   
 
