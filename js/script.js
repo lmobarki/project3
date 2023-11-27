@@ -17,11 +17,7 @@ function init(){
 		icon:'images/bboo.png'
 	});
 
-	var contentString = '<h1>Harold Washington Library</h1><p> The Harold Washington Library Center is the central library for the Chicago Public Library System.</p>';
 
-	var infowindow = new google.maps.InfoWindow({
-      content: contentString
-  	});
 
 	google.maps.event.addListener(marker, 'mouseover', function() {
     	infowindow.open(myMap, marker);
