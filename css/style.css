@@ -244,7 +244,11 @@ footer p {
 button {
     margin: 10px;
 }
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #C2B7B1;
+  }
+}
 @media screen and (min-width: 600px) {
   #Abjura {
     padding: 3rem;
