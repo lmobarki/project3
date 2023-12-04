@@ -245,6 +245,67 @@ button {
     margin: 10px;
 }
 
+@media screen and (min-width: 600px) {
+  #Abjura {
+    padding: 3rem;
+    border-width: 0.5rem;
+  }
+
+  #Abjura h2, #Abjura p {
+    font-size: 1.25em;
+  }
+
+  #Finjan {
+    padding: 5%;
+  }
+
+  #Finjan h2, #Finjan p {
+    font-size: 1.25em;
+  }
+  
+  #SaturdayCouch {
+    padding: 5%;
+    border-width: 1rem;
+  }
+
+  #SaturdayCouch h2, #SaturdayCouch p {
+    font-size: 1.25em;
+  }
+  
+  img {
+    width: 20%;
+  }
+  
+@media screen and (min-width: 900px) {
+  #Abjura {
+    padding: 4rem;
+  }
+
+  #Abjura h2, #Abjura p {
+    font-size: 1.5em;
+  }
+
+  #Finjan {
+    padding: 6%;
+  }
+
+  #Finjan h2, #Finjan p {
+    font-size: 1.5em;
+  }
+
+  #SaturdayCouch {
+    padding: 6%;
+    border-width: 1.5rem;
+  }
+
+  #SaturdayCouch h2, #SaturdayCouch p {
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 25%;
+  }
+
 
 
 
