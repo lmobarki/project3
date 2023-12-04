@@ -254,7 +254,7 @@ button {
 @media screen and (min-width: 320px) {
   #Abjura {
     padding: 3rem;
-    border-width: 0.5rem;
+    border-width: 1rem;
   }
 
   #Abjura h2, #Abjura p {
@@ -301,7 +301,7 @@ button {
 
   #SaturdayCouch {
     padding: 5%;
-    border-width: 1.5rem;
+    border-width: 1rem;
   }
 
   #SaturdayCouch h2, #SaturdayCouch p {
