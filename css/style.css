@@ -4,16 +4,6 @@ body {
   margin: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: #C2B7B1;
-  }
-  
-  #canvas {
-    width: 100%;
-    height: 200px;
-}
-
 nav {
   background-color: #ffffff;
   text-align: center;
