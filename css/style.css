@@ -248,6 +248,17 @@ button {
   body {
     background-color: #C2B7B1;
   }
+  
+  nav ul li a {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+
+  #canvas {
+    width: 70%;
+    margin: 30px auto;
+  }
+  
 }
 @media screen and (min-width: 320px) {
   #Abjura {
