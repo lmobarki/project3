@@ -239,6 +239,12 @@ footer p {
   border: 15px solid;
   margin: 2% ;
 }
+
+@media screen and (max-width: 600px) {
+  #canvas {
+    height: 300px;
+  }
+}
 	
 #canvas {
 	width: 800px;
