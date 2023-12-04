@@ -252,24 +252,24 @@ button {
   }
 
   #Abjura h2, #Abjura p {
-    font-size: 1.25em;
+    font-size: 27px;
   }
 
   #Finjan {
-    padding: 5%;
+    padding: 2%;
   }
 
   #Finjan h2, #Finjan p {
-    font-size: 1.25em;
+    font-size: 27px;
   }
   
   #SaturdayCouch {
-    padding: 5%;
+    padding: 2%;
     border-width: 1rem;
   }
 
   #SaturdayCouch h2, #SaturdayCouch p {
-    font-size: 1.25em;
+    font-size: 27px;
   }
   
   img {
@@ -282,24 +282,24 @@ button {
   }
 
   #Abjura h2, #Abjura p {
-    font-size: 1.5em;
+    font-size: 27px;
   }
 
   #Finjan {
-    padding: 6%;
+    padding: 5%;
   }
 
   #Finjan h2, #Finjan p {
-    font-size: 1.5em;
+    font-size: 27px;
   }
 
   #SaturdayCouch {
-    padding: 6%;
+    padding: 5%;
     border-width: 1.5rem;
   }
 
   #SaturdayCouch h2, #SaturdayCouch p {
-    font-size: 1.5em;
+    font-size: 27px;
   }
 
   img {
